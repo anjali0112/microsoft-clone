@@ -1,0 +1,500 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+
+}
+body
+{
+	font-family:Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	overflow-x: hidden;
+	
+}
+
+p
+{
+	font-weight: 400;
+	line-height: 20px;
+	
+}
+h1,h2,.button-text,.fa-chevron-right
+{
+	line-height: 28px;
+	font-weight: 600;
+}
+h2,p, #pause,#footer h3
+{
+	font-size: 15px;
+	
+}
+#onedrive,#activities,#services,#business,#contact,.social-media
+{
+	margin: 10rem 3% 9%;
+
+}
+h1
+{
+	font-size: 24px;
+	
+}
+
+#activities a:hover,#activities a{
+	color: black;
+
+}
+
+.card-img-top
+{
+	height: 200px;
+	object-fit: cover;
+}
+#pause
+{
+	margin: auto;
+	font-weight: 70;
+	
+}
+
+/* NAViGATION */
+.logo
+{
+	width: 108px;
+	
+}
+.navbar
+{
+	padding: 1rem 3rem 0 0;
+	position: absolute;
+	z-index: 1000;
+	background-color:#f2f2f2 ;
+    width: 100%;
+}
+.navbar-brand,.nav-link
+{
+	margin-top: 1px;
+	padding: .7rem 8px 10px;
+    margin-left: 1%;
+}
+
+.All-microsoft
+{
+	margin-left: auto;
+}
+.nav-icons
+{
+	flex-direction: row;
+	margin-right: 3%;
+}
+.nav-link
+{
+	display: inline-block;
+	font-size: 13px;
+	height: 48px;
+	margin: 0 .5rem 0 .5rem;
+	color: #000;
+}
+.nav-link:hover
+{ 
+	color: #000;
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+}
+/* DROPDOWN && FOOTER*/
+.dropdown
+{
+position: static;
+}
+#footer a,.dropdown-menu a
+{
+	font-size: 11px;
+	line-height: 16px;
+	padding: 20px 0 4px;
+	color: #616161;
+}
+.dropdown-menu,#footer
+{
+	width: 100%;
+	background-color: #f2f2f2;
+	color: #616161;
+	padding-bottom: 3rem;
+}
+ 
+.footer-content,.dropdown-content
+{
+	display: inline-flex;
+	flex-direction: column;
+	padding: 0 50px 10px;
+}
+/* #navbarDropdown:focus + .dropdown-menu, */#footer
+{
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+} 
+#footer h3
+{
+	
+	
+	line-height: 20px;
+	
+	padding: 36px 0 4px;
+}
+.dropdown a:hover
+{
+	text-decoration: underline;
+	background-color: transparent;
+}
+
+/* Title */
+.title
+{
+	margin: 0 3%;
+}
+#carousel-1
+{
+	top: 4rem;
+}
+.laptop-top
+{
+	width: 100%;
+}
+.card-img-overlay
+{
+	text-align: left;
+	color: #000;
+	padding-left: 5%;
+	padding-right: 53%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+
+}
+.Laptop-name
+{
+	border-style: none;
+}
+.c-text
+{
+	margin-top: 3%;
+}
+.stretched-link,.button-text,.fa-chevron-right,.btn-dark
+{
+	position: relative;
+}
+.btn-dark
+{
+	border-radius: 0;
+	/* margin: 1% 0 5%; */
+	background-color: #000;
+	margin-top: 2%;
+	margin-bottom: 10%;
+	line-height: 1.2;
+}
+.fa-chevron-right
+{
+	padding-left: 10px;
+    bottom: 4px;
+}
+.button-text
+{
+	font-size:15px ;
+	letter-spacing: 0;
+    vertical-align: top;
+    line-height: 18.5px;
+    vertical-align: top;
+    transition:  .5s;
+    top: 1px;
+}
+.stretched-link:hover .fa-chevron-right,.btn-dark:hover .fa-chevron-right
+{
+   left: 3px;
+}
+.btn-dark:hover .button-text
+{
+	text-decoration: underline;
+	right: 3px;
+}
+
+.prev-shift-btn
+{	justify-content: flex-start;
+	width: 5rem;
+}
+.prev-shift-btn:focus
+{
+	border: none;
+	
+}
+.next-shift-btn
+{
+	justify-content: flex-end;
+	width: 5rem;
+}
+.shift-icon
+{
+	width: 44px;
+	height: 44px;
+	border-radius: 100%;
+	background-color: transparent;
+	background-image: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.shift-to
+{
+	padding: 0;
+	position: static;
+	font-size: 20px;
+}
+
+.carousel-indicators
+{
+	justify-content: unset;
+	margin-left: 40%;
+	bottom: 0;
+	margin-bottom: 0;
+	height: 1.5rem;
+}
+.carousel-indicators li
+{
+ border-radius: 100%;
+ width: 7px;
+ height: 7px;
+ background-color: #000;
+ margin: 1%;
+}
+.carousel-indicators .active
+{
+  border: 1px solid;
+}
+
+
+#carousel-1:hover .shift-icon
+{
+     background-color: #fafafa;
+     color: #404040;
+    
+     box-shadow: 0 4px 8px rgba(0,0,0,.2);
+}
+
+label {
+    cursor: pointer;
+}
+#play-pause,.pause-text
+{
+    display: none;
+}
+#play-pause-label
+{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 13px;
+  border-radius: 0;
+  margin-left: 5%;
+  width: 40px;
+  height: 40px;
+}
+#play-pause-label:hover
+{
+	background-color: black;
+	color: #fff;
+}
+.pause-text
+{
+	position: relative;
+	bottom: 15px;
+	margin: 0 1%;
+	height: 2rem;
+	width: auto;
+	background-color: #fff;
+	border: 1px solid;
+	padding: 0 5px;
+	text-spacing: 0;
+	text-align: center;
+} 
+.carousel-indicators #play-pause-label:hover + .pause-text
+{
+    display: flex;
+
+}
+
+
+#play-pause:checked + #play-pause-label::after {
+    content: '►';
+}
+
+#play-pause-label::after {
+    content: '❙❙';
+
+}
+
+/* ACTIVITIES */
+.activity-row
+{
+	margin: 5% 17%;
+}
+.activity-name
+{
+	padding: 0 40px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+     text-align: center;
+}
+ .activity-icon
+{
+	width: 40px;
+	height: 40px;
+	font-size: 2.5rem;
+	margin: 7%;
+}
+.activity-name h2
+{
+	line-height: 20px;
+}
+/* SERVICES */
+.card
+{
+	border: none;
+}
+.card-title
+{
+	font-size: 20px;
+	line-height: 24px;
+	margin-bottom: 8px;
+}
+.card-text
+{
+	margin-bottom: 12px;
+}
+#services a
+{
+	display: block;
+	padding-bottom: 12px;
+	text-decoration: none;
+}
+
+#onedrive .card
+{
+	opacity: .84;
+}
+/* CONTTACT */
+.social-media
+{
+	display: flex;
+	background-color: #e6e6e6;
+	height: 100px;
+	align-items: center;
+}
+.social-media i
+{
+	font-size: 30px;
+	margin: 0 7px;
+}
+.social-media h2
+{
+	opacity: .6;
+	font-weight:1;
+	margin: 0 7px;
+}
+
+/* FOOTER */
+
+/* #footer
+{
+	background-color: #d1d9d9;
+	color: #616161;
+	display: flex;
+	flex-wrap: wrap;
+	
+	justify-content: space-around;
+} */
+
+
+
+
+@media (max-width:770px)
+{
+
+	
+	.carousel-item
+	{
+		padding: 0;
+		text-align: center;
+	}
+	
+	.card-img-overlay
+	{
+	   position: static;
+	   padding:100px 2% 0;
+	   background-color: #e6e6e6;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		
+	}
+	.c-text
+	{
+		
+		padding: 0 7%;
+	} 
+
+	.btn-dark
+	{
+		margin-bottom: 100px;
+
+	}
+	.activity-row
+	{
+		margin: 16px;
+	}
+	.activity-name
+	{
+		padding: 0;
+		justify-content: flex-start;
+		align-items: center;
+	}
+	.activity-icon
+	{
+		font-size: 1.6rem;
+		margin: 2% 1%;
+	}
+} 
+@media (max-width:990px)
+{
+#search,.navbar-brand,.right-sml-2,.right-sml-1
+{
+	position: absolute;
+}
+	#search
+	{
+		left: 5rem;
+		top: .5rem;
+	}
+	
+	.navbar-brand
+{
+	top: .5rem;
+	left: 50%;
+	transform: translateX(-50%);
+}
+	.dropdown
+{
+position: relative;
+}
+.right-sml-2
+{
+	right: 3rem;
+    top: .2rem;
+}
+.right-sml-1
+{
+	right: 6rem;
+    top: .5rem;
+}
+}
